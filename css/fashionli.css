@@ -1,0 +1,345 @@
+body {
+	overflow-x: hidden;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+.container { 
+	width: 1300px;
+}
+body,.container-fluid {background-color: white;}
+.html-content span, .language span, .currency span {
+	color: white; 
+	font-size: 0.75rem; 
+	padding-top: 0.75rem
+}
+.language span.fa, .currency span.fa {
+	font-size: 1rem;
+	margin-left: 0.25rem
+}
+.menu-navigation{
+	display:inline-block;
+	font-size: 0.875rem;
+	margin-bottom: 0.75rem;
+}
+#banner .menu-navigation ul li:hover {
+	border-top-color: #1d96f3;
+}
+.menu-navigation ul li{
+	font-weight: 500;
+	padding: 0 15px;
+	margin-top: -2px;
+	border-top: solid 2px transparent;
+}
+#banner .menu-navigation ul li span {
+	margin-top: 1rem;
+	line-height: 2;
+	display:inline-block;
+	text-transform: uppercase;
+}
+.card {
+	border: none;
+	border-radius: 0rem;
+}
+.product { margin-bottom: 3.75rem}
+.product .title-block h2 { 
+	margin: 1rem 0rem 3.0625rem;
+	font-size:1.625rem;
+}
+#content {padding: 0px}
+.card-block { padding:0rem}
+.card-header {
+	font-weight: bold;
+	border-left: solid 3px #0275d8;
+	margin-bottom:15px;
+	padding-top:8px;
+	padding-bottom: 6px
+}
+.card-border .card { border-bottom: none}
+#content .card {margin-bottom: 2.75rem;}
+.btn { padding: .75rem 1rem;}
+img {width:100%}
+.product-block img {background-color: whitesmoke}
+.nav-header {
+	    border-left: solid 3px #0275d8;
+	    padding-left:0.5em;
+	    margin: 4% 0%;
+
+}
+.carousel-top {margin-bottom: 5%}
+
+.card-deck-wrapper {    padding-top: 4.5em;}
+.card-deck .card-img-top {padding-right:0em}
+.card-deck .card {background-color: #f7f7f9 }
+.card-deck .card h4{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.25em;
+}
+.card-deck .card-block {padding-top:1em}
+
+#footer-wrapper {
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+}
+#footer-wrapper .container-fluid .card-deck .card {
+    background-color: transparent;
+}
+#footer-wrapper .container-fluid { 
+	background-color: #272c30;
+    opacity: 0.9;
+}
+#footer-wrapper .container-fluid .card-deck-wrapper {
+	padding-right: 3.75%;
+	padding-left: 3.75%;
+
+}
+#footer-wrapper.navbar{padding:0em}
+.list-group-item {    
+	background: none;
+    border: none;
+    border-bottom: dotted 1px #595f64;
+    padding-left: 0em;
+}
+.list-group-item:last-child { border: none}
+.product .list-group-item {
+	display: flex;
+	padding-right:0em
+}
+.product .list-group-item div {padding: 0em}
+.nav-item .btn {padding-right: 0em}
+#banner .top-navigation {
+	margin-top: 2.75em;
+	margin-bottom: 2.75em 
+}
+.card-inverse .card-text {
+    color: rgba(255,255,255,255);
+}
+#footer-wrapper #footer-bottom {
+	border-top: dotted 1px rgba(255, 255, 255, 0.25);
+}
+li p:first-child {margin-bottom: -5px}
+#footer-wrapper li {line-height: 2}
+.carousel-control {
+	opacity: 1;
+	width: 3em;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+	font-size: 2em;
+}
+.carousel-control.right {
+    right: auto;
+    left: 3em;
+}
+.carousel-control .icon-next, .carousel-control .icon-prev { 
+	top: auto;
+	bottom: 1em;
+	font-size: 2em;
+}
+.carousel-control .icon-next {
+	right: 75%;
+}
+.carousel-control .icon-prev {
+	left: 75%;
+}
+.nav-top { 
+	border-radius: 0;
+	padding: 0.25rem 0.5rem 0.5rem;
+	opacity: 0.85;
+}
+.html-content p {
+	margin-bottom: 0px;
+}
+.block-social .nav-link i:hover {
+	color: #018984;
+} 
+.block-social .nav-link i { 
+	color:white; 
+	font-size: 1rem
+}
+.navbar-nav .nav-item + .nav-item {
+	margin-left: 0.5rem;	
+}
+a.nav-link {
+	padding: 5px;
+}
+.nav-bottom {	border-bottom: solid 1px #e0e0e0;}
+.nav-bottom i {	font-size: 18px}
+.nav-bottom .nav div {
+	border-right: solid 1px #e0e0e0;
+	height: 8.7em; 
+	padding-top: 3em;
+	text-align: center;
+}
+.nav-bottom .nav div.logo {padding-top: 3.2em} 
+#content-home .card {
+	padding: 0rem 2rem;
+	margin-bottom: 3.125rem;
+}
+.parallax
+{
+	background-image: url("../img/li_parallax.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition-property: background-position; /* Safari */
+    -webkit-transition-duration: 5s; /* Safari */
+    transition-property: width;
+    transition-duration: 5s;
+}
+.htmlcontent {
+	height:558px;
+	background-color:transparent;
+	position:relative;
+	top: 15rem;
+	padding-right: 15%;
+}
+
+.htmlparent {
+background-image: url("../img/li_parallax.jpg");
+	height: 1012px;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.htmlcontent h3 {
+	font-size: 3.75em
+}
+.htmlcontent h2 {
+	font-size:5em;
+	color: white;
+}
+
+
+.product-block .card-block {
+	text-align:center;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+.product-block .card-block .card-link {
+	color: #282828;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.product-block .card-block .card-price{
+	font-size: 1.25rem;
+	color: #e6747f;
+
+}
+.product-block .card-block .product-title{
+	margin: 1.625rem 0 0;
+
+}
+#htmlcontent-bottomcolum .card-block {
+	position: absolute;
+	bottom: 30%;
+	color: #fff;
+	width: 100%;
+	font-family: sans-serif;
+}
+#htmlcontent-bottomcolum .card-block h2
+{
+	color: #01bcb5;
+	font-size: 3.0625rem;
+}
+.email
+{
+	border: none;
+	background-color: #f4f2f3;
+	padding: 0.75rem 4rem;
+	font-size: 0.75rem;
+}
+.btn-subcribe .btn-primary
+{
+	border-radius: 0;
+	color: #ffffff;
+	background-color: #018984;
+	border: solid 1px #018984;
+	text-transform: uppercase;
+	padding: 0.625rem 1.9rem;
+	font-size: 0.8rem;
+}
+#footer-container .navbar-brand {
+	font-size: 0.85rem
+
+}
+#footer-container .menu-navigation ul li{
+	color:#888888;
+	border-right:  solid 1px #888888;
+	text-transform: uppercase;
+	margin-left:0;
+	line-height: 0.75rem;
+}
+#footer-container .menu-navigation ul li:hover { color: #fff}
+
+#footer-container .menu-navigation ul li:last-child {
+	border-right: none
+}
+.footer-container{
+	padding: 6rem 0rem 0rem;
+	background-color: #1f1f1f;
+
+}
+#footer-container .title-block a{
+	display: inline-block;
+	margin: 0.25rem auto 2rem;
+}
+.bottom-footer {
+	padding: 1.25rem 0;
+	background: #000000;
+}
+#footer-container .block-social ul {
+	display: inline-block;
+	margin: 2rem 0rem 1rem;
+}
+.copyright a{
+	color: white;
+	font-size: 0.75rem;
+}
+.copyright a:hover{
+	color: #01bcb5;
+	text-decoration: none;
+}
+
+
+
+
+@media (max-width: 62em and min-width: 48em){
+	.menu-navigation {font-size: 0.55rem }
+}
+@media (max-width: 48em)
+{
+	.card-img-top {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	img {width:100%}
+	.nav-bottom .nav div {
+		height: auto;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		border-bottom: solid 1px #e0e0e0;
+	}
+	.nav-bottom .nav div:last-child { border-bottom: none}
+	.htmlcontent h3 {
+		font-size: 1.75em
+	}
+	.htmlcontent h2 {
+		font-size:3em;
+		color: white;
+	}
+	#footer-container .navbar-brand{
+	    -webkit-flex-flow: row wrap;
+	    -webkit-justify-content: center;
+	        display: flex;
+	        font-size:0.75rem;
+	        margin: 0rem 2rem;
+	}
+	#footer-container .menu-navigation ul li {border-right:none;    padding: 0.25rem 0.5rem;}
+	#footer-container .block-social ul {margin:1rem}
+	.menu-navigation {margin-bottom: 0rem}
+}
